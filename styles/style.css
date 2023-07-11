@@ -70,3 +70,77 @@ body {
     color: #FFFFFF;
     margin-top: 30px;
 }
+
+/* Main*/
+.hot-deal{
+    
+position: absolute;
+width: 594px;
+height: 228px;
+left: 393px;
+top: 1000px;
+margin-top: 300px;
+
+}
+.hot-deal-content{
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 20px 43px;
+gap: 10px;
+
+position: absolute;
+width: 155px;
+height: 64px;
+left: 601px;
+top: 2783px;
+
+
+background-color: #E55473;
+border-radius: 8px;
+}
+.hot-deal-title{
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 800;
+font-size: 40px;
+line-height: 48px;
+}
+.hot-deal-description{
+    
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 30px;
+/* or 167% */
+text-align: center;
+
+color: rgba(39, 39, 39, 0.6);
+}
+.singup-btn{
+    position: absolute;
+    width: 579px;
+    height: 169px;
+    left: 150px;
+    top: 200px;
+    padding: 20px 43px;
+    background: #E55473;
+    border-radius: 8px;
+    width: 193px;
+    height: 78px;
+    font-family: lato;
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+.hot-img{
+    
+position: absolute;
+width: 318px;
+height: 420px;
+left: 1000px;
+top: -100px;
+
+
+}

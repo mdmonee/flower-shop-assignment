@@ -1,0 +1,72 @@
+/*common shared style*/
+body {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Header */
+.header {
+    position: absolute;
+    width: 1920px;
+    height: 850px;
+    left: 0px;
+    top: 0px;
+    background: rgba(229, 84, 115, 0.1);
+    display: flex;
+    background-position: bottom right;
+}
+
+.banner-pic {
+    position: absolute;
+    width: 635px;
+    height: 800px;
+    left: 1040px;
+    top: 50px;
+    display: flex;
+}
+
+.banner-title {
+    position: absolute;
+    width: 708px;
+    height: 288px;
+    left: 240px;
+    top: 197px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 80px;
+    color: #272727;
+}
+
+.banner-description {
+    position: absolute;
+    width: 634px;
+    height: 90px;
+    left: 240px;
+    top: 517px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: rgba(39, 39, 39, 0.6);
+    margin-top: 30px;
+}
+
+.btn-primary {
+    position: absolute;
+    width: 579px;
+    height: 169px;
+    left: 240px;
+    top: 639px;
+    padding: 20px 43px;
+    background: #E55473;
+    border-radius: 8px;
+    width: 193px;
+    height: 78px;
+    font-family: lato;
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFFFFF;
+    margin-top: 30px;
+}

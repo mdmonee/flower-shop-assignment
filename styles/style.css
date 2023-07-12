@@ -1,146 +1,55 @@
 /*common shared style*/
+
 body {
     font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
 }
+.btn-primary{
+    background: #e55473;
+    color: white;
+    font-size: 20px;
+    font-weight: 700px;
+    border-radius: 8px;
+    padding: 20px 43px;
+}
 
-/* Header */
-.header {
-    position: absolute;
-    width: 1920px;
-    height: 850px;
-    left: 0px;
-    top: 0px;
+header{
+    display: flex;
     background: rgba(229, 84, 115, 0.1);
-    display: flex;
-    background-position: bottom right;
+    justify-content: space-around;
+    gap: 50px;
+    padding: 0px 120px;
+    padding-top: 50px;
+    align-items: center;
+    
 }
-
-.banner-pic {
-    position: absolute;
-    width: 635px;
-    height: 800px;
-    left: 1040px;
-    top: 50px;
+.banner{
+    align-items: center;
     display: flex;
-}
-
-.banner-title {
-    position: absolute;
+    justify-content: center;
+    height: 506px;
     width: 708px;
-    height: 288px;
-    left: 240px;
-    top: 197px;
-    font-family: 'Lato';
-    font-style: normal;
+    margin: ;
+    
+}
+.banner-title{
     font-weight: 800;
     font-size: 80px;
     color: #272727;
+    font-family: 'Lato';    
+    margin-bottom: 25px;
 }
-
-.banner-description {
-    position: absolute;
-    width: 634px;
-    height: 90px;
-    left: 240px;
-    top: 517px;
-    font-family: 'Lato';
-    font-style: normal;
-    font-weight: 400;
+.banner-description{
+    color: #6d6969;
     font-size: 18px;
-    line-height: 30px;
-    color: rgba(39, 39, 39, 0.6);
-    margin-top: 30px;
+    font-weight: 400;
+    margin-top: 25px;
 }
-
-.btn-primary {
-    position: absolute;
-    width: 579px;
-    height: 169px;
-    left: 240px;
-    top: 639px;
-    padding: 20px 43px;
-    background: #E55473;
-    border-radius: 8px;
-    width: 193px;
-    height: 78px;
-    font-family: lato;
-    font-weight: 700;
-    font-size: 20px;
-    color: #FFFFFF;
-    margin-top: 30px;
-}
-
-/* Main*/
-.hot-deal{
-    
-position: absolute;
-width: 594px;
-height: 228px;
-left: 393px;
-top: 1000px;
-margin-top: 300px;
-
-}
-.hot-deal-content{
+.banner-pic{
     display: flex;
-flex-direction: row;
-align-items: flex-start;
-padding: 20px 43px;
-gap: 10px;
-
-position: absolute;
-width: 155px;
-height: 64px;
-left: 601px;
-top: 2783px;
-
-
-background-color: #E55473;
-border-radius: 8px;
-}
-.hot-deal-title{
-    font-family: 'Lato';
-font-style: normal;
-font-weight: 800;
-font-size: 40px;
-line-height: 48px;
-}
-.hot-deal-description{
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 635px;
     
-font-family: 'Lato';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 30px;
-/* or 167% */
-text-align: center;
-
-color: rgba(39, 39, 39, 0.6);
-}
-.singup-btn{
-    position: absolute;
-    width: 579px;
-    height: 169px;
-    left: 150px;
-    top: 200px;
-    padding: 20px 43px;
-    background: #E55473;
-    border-radius: 8px;
-    width: 193px;
-    height: 78px;
-    font-family: lato;
-    font-weight: 700;
-    font-size: 20px;
-    color: #FFFFFF;
-}
-.hot-img{
     
-position: absolute;
-width: 318px;
-height: 420px;
-left: 1000px;
-top: -100px;
-
-
 }

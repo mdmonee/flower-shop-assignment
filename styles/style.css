@@ -54,6 +54,42 @@ header{
     justify-content: flex-end;
     width: 635px;
 }
+/* Futured */
+
+.futured-content{
+    text-align: center;
+}
+.futured-content-title{
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 800;
+font-size: 40px;
+color: #272727;
+margin-top: 150px;
+}
+.futured-content-des{
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+color: #6d6969;
+margin: 50px 0px;
+}
+.img-a{
+    position: absolute;
+width: 464px;
+height: 538px;
+left: 240px;
+top: 1208px;
+
+background: rgba(167, 33, 98, 0.15);
+border-radius: 300px 300px 0px 0px;
+
+}
+
+
+
+
 .hot-deal{
     display: flex;
     margin: 140px 0px;
@@ -90,6 +126,9 @@ text-align: center;
 color: rgba(39, 39, 39, 0.6);
 margin: 30px 0px;
 }
+
+/* Instagram*/
+
 .ista-content{
     
     text-align: center;
@@ -118,6 +157,9 @@ margin: 30px 0px;
     margin: 0px 120px;
     gap: 20px;
 }
+
+/* Footer */
+
 footer {
     background: #111010;
     padding: 80px 0px;
